@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  background-color: black;
+  margin-top: 100px;
+}
+
+.main {
+  margin-inline: 20px;
+}
+
+.slide {
+  height: 50vh;
+  padding-inline: 30px;
+}
+
+h2 {
+  color: white;
+}
+
+.slick-slide>div {
+  margin-right: 10px;
+  background-color: blueviolet;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 40px !important;
+}
+
+
+.slick-prev {
+  left: -5px;
+  z-index: 999;
+}
+
+.slick-next {
+  right: 0px !important;
+}
